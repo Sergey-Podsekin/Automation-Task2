@@ -1,0 +1,69 @@
+###############################
+# Visual Studio / .NET Ignore #
+###############################
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results (for both src and tests)
+src/**/[Bb]in/
+src/**/[Oo]bj/
+tests/**/[Bb]in/
+tests/**/[Oo]bj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Logs (NLog and others)
+*.log
+logs/
+[Ll]og/
+[Ll]ogs/
+
+# Test results
+tests/**/[Tt]est[Rr]esult*/
+tests/**/[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Rider / ReSharper
+.idea/
+*.DotSettings.user
+_ReSharper*/
+
+# Visual Studio Code
+.vscode/
+
+# Profiling
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Misc
+*.cache
+*.pdb
+*.tmp
+*.bak
+*.swp
+*~
+$tf/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Python cache (if you run helper scripts)
+__pycache__/
+*.pyc
